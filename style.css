@@ -1,0 +1,32 @@
+body, html {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.player {
+    flex-basis: 45%;
+    text-align: center;
+}
+
+.timer {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+}
