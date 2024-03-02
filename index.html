@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>オンライン算数クイズ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="game">
+    <div class="player" id="player1">
+        <h2>プレイヤー1 (あなた)</h2>
+        <div class="timer" id="timer1">60</div>
+        <div class="question" id="question1"></div>
+        <input type="text" id="answer1">
+        <button onclick="submitAnswer(1)">回答する</button>
+    </div>
+    <div class="player" id="player2">
+        <h2>プレイヤー2 (相手)</h2>
+        <div class="timer" id="timer2">60</div>
+        <div class="question" id="question2"></div>
+        <input type="text" id="answer2">
+        <button onclick="submitAnswer(2)">回答する</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
